@@ -1,6 +1,9 @@
-import './globals.css'
+import Header from '@/components/Layout/Header'
+import { formula } from '@/lib/fonts'
+import '@/styles/globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import Image from 'next/image'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,7 +19,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${formula.variable}`}>
+        <Header />
+        {children}
+      <Image src={'/test.png'} fill alt="" className="object-cover pointer-events-none" />
+      </body>
     </html>
   )
 }
