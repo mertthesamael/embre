@@ -9,7 +9,7 @@ type HeaderProps = {
 
 const Header: FC<HeaderProps> = ({  }) => {
   return (
-    <header className='page-format flex justify-center w-full h-[--header-height] border-b border-black absolute top-0'>
+    <header className='page-format flex justify-center w-full h-[--header-height] border-b border-black absolute top-0 z-10'>
         <div className='width-cap h-full w-full flex items-center justify-between px-10'>
           <div>
           <Logo />

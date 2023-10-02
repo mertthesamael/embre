@@ -22,7 +22,7 @@ export default function RootLayout({
       <body className={`${formula.variable}`}>
         <Header />
         {children}
-      <Image src={'/test.png'} fill alt="" className="object-cover pointer-events-none" />
+      <Image src={'/test.png'} fill alt="" className="object-cover !fixed pointer-events-none z-20 " />
       </body>
     </html>
   )

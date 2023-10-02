@@ -6,7 +6,7 @@ type HeroSectionProps = {};
 
 const HeroSection: FC<HeroSectionProps> = ({}) => {
   return (
-    <section className="flex justify-center page-format w-full h-full bg-[#E8ECEF]">
+    <section className="flex justify-center page-format w-full h-full relative bg-[#E8ECEF]">
       <div className="w-full px-10 min-h-screen border-r border-l border-black flex flex-col-reverse 2xl:flex-row items-center width-cap pt-[--header-height]">
         <div className="w-full max-w-[611px] h-full flex flex-col gap-12 2xl:gap-24  justify-center">
           <div className="flex flex-col gap-12 2xl:gap-16">
