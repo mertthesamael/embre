@@ -1,9 +1,5 @@
 import { Ellipsis } from "@/components/Icons/Ellipsis";
-import { FlowerIcon } from "@/components/Icons/Flower";
-import { MaterialIcon } from "@/components/Icons/Material";
-import { TailorIcon } from "@/components/Icons/Tailor";
 import { TitleIcon } from "@/components/Icons/TitleIcon";
-import { WashingMachineIcon } from "@/components/Icons/WashingMachine";
 import IconFrame from "@/components/Layout/Frames/IconFrame";
 import SectionBackground from "@/components/Layout/SectionBackground";
 import React, { FC } from "react";
@@ -49,7 +45,10 @@ const InfoSection: FC<InfoSectionProps> = ({}) => {
               </div>
             </div>
           </div>
-          <div className="w-full h-full border-l border-black"></div>
+          <div className="w-full h-full  border-l border-black">
+        
+           
+          </div>
         </div>
       </div>
     </section>
