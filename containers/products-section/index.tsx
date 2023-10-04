@@ -19,7 +19,7 @@ const ProductsSection: FC<ProductsSectionProps> = ({}) => {
             WHAT WE MAKE
           </h1>
         </div>
-        <div className="flex gap-6 items-center">
+        <div className="flex flex-col xl:flex-row gap-6 items-center">
             <TitleLine />
             <h2 className="font-bold">RECOMMENDED PRODUCTS</h2>
             <TitleLine className="rotate-180"/>

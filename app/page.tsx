@@ -1,3 +1,4 @@
+import FooterSection from "@/containers/footer-section";
 import HeroSection from "@/containers/hero-section";
 import InfoSection from "@/containers/info-section";
 import NewsSection from "@/containers/news-section";
@@ -18,6 +19,7 @@ export default function Home() {
           satisfaction.
         </h1>
       </section>
+      <FooterSection />
     </main>
   );
 }

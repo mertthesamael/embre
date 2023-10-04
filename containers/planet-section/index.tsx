@@ -8,7 +8,7 @@ type PlanetSectionProps = {};
 const PlanetSection: FC<PlanetSectionProps> = ({}) => {
   return (
     <section className="w-full min-h-screen relative page-format flex justify-center bg-[#EAF3F5]">
-      <div className="w-full flex-col items-center gap-16 py-20 border-r border-t border-l border-black flex relative">
+      <div className="w-full px-10 flex-col items-center gap-16 py-20 border-r border-t border-l border-black flex relative">
         <SectionBackground />
         <div className="relative flex w-max">
           <span className="absolute -left-12 bottom-5">

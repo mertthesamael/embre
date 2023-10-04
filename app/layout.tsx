@@ -1,3 +1,4 @@
+import Footer from '@/components/Layout/Footer'
 import Header from '@/components/Layout/Header'
 import { formula } from '@/lib/fonts'
 import '@/styles/globals.css'
@@ -23,6 +24,7 @@ export default function RootLayout({
         <Header />
         {children}
       <Image src={'/test.png'} fill alt="" className="object-cover !fixed pointer-events-none z-20 " />
+      <Footer />
       </body>
     </html>
   )

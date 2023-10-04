@@ -18,7 +18,6 @@ const NewsSection: FC<NewsSectionProps> = ({  }) => {
             {articles.map((el, _i) => (
               <ArticleCard key={_i} id={el.id} title={el.title} imgPath={el.imgPath}/>
             ))}
-
           </div>
         </div>
     </section>
