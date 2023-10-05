@@ -1,3 +1,6 @@
+![image](https://github.com/mertthesamael/embre/assets/79616834/22a8c437-5b86-4e1a-9a96-a5554942d2f2)
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
