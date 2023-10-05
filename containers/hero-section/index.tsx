@@ -7,42 +7,42 @@ type HeroSectionProps = {};
 const HeroSection: FC<HeroSectionProps> = ({}) => {
   return (
     <section className="flex justify-center page-format w-full h-full relative bg-[#E8ECEF]">
-      <div className="w-full px-10 min-h-screen border-r border-l border-black flex flex-col-reverse 2xl:flex-row items-center width-cap pt-[--header-height]">
+      <div className="w-full px-10 py-10 min-h-screen border-r border-l border-black flex flex-col-reverse 2xl:flex-row items-center width-cap pt-[--header-height]">
         <div className="w-full max-w-[611px] h-full flex flex-col gap-12 2xl:gap-24  justify-center">
-          <div className="flex flex-col gap-12 2xl:gap-16">
-            <h1 className="font-bold text-[44px] 2xl:text-[64px] font-formula">
-              <span className="text-[64px] 2xl:text-[94px]">WE </span> HAVE DIVERSE CLOTHING{" "}
-              <span className="text-[--primary-color] text-[64px] 2xl:text-[94px]">
+          <div className="flex flex-col gap-8 2xl:gap-16">
+            <h1 className="font-bold lg:text-left text-center text-[32px] lg:text-[44px] 2xl:text-[64px]  font-formula">
+              <span className=" text-[40px] lg:text-[64px] 2xl:text-[94px]">WE </span> HAVE DIVERSE CLOTHING{" "}
+              <span className="text-[--primary-color] text-[40px] lg:text-[64px] 2xl:text-[94px]">
                 {" "}
                 COLLECTION
               </span>
             </h1>
-            <div className="pl-40">
-              <p>
+            <div className="md:pl-40">
+              <p className="lg:text-left text-center">
                 Embre Group is a dynamic and continuously growing group of
                 companies creating a buoyant economic climate.
               </p>
             </div>
-            <div>
+            <div className="lg:text-left text-center">
               <HeroButton text="GET YOUR STORE" />
             </div>
           </div>
-          <div className="flex items-center gap-20">
+          <div className="flex items-center lg:justify-start justify-between gap-5 md:gap-20">
             <div>
-              <span className="font-formula font-bold text-[44px]">25+</span>
-              <p className="font-formula font-bold leading-5 text-[22px] tracking-wider">
+              <span className="font-formula font-bold text-3xl lg:text-[44px]">25+</span>
+              <p className="font-formula font-bold leading-5 lg:text-[22px] tracking-wider">
                 YEAR OF EXPERIENCE
               </p>
             </div>
             <div>
-              <span className="font-formula font-bold text-[44px]">98+</span>
-              <p className="font-formula font-bold leading-5 text-[22px] tracking-wider">
+              <span className="font-formula font-bold text-3xl lg:text-[44px]">98+</span>
+              <p className="font-formula font-bold leading-5 lg:text-[22px] tracking-wider">
                 COUNTRIES
               </p>
             </div>
             <div>
-              <span className="font-formula font-bold text-[44px]">1100+</span>
-              <p className="font-formula font-bold leading-5 text-[22px] tracking-wider">
+              <span className="font-formula font-bold text-3xl lg:text-[44px]">1100+</span>
+              <p className="font-formula font-bold leading-5 lg:text-[22px] tracking-wider">
                 STORES
               </p>
             </div>

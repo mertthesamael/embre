@@ -14,3 +14,24 @@ export const formula = localFont({
   variable: "--formula",
   display:'swap'
 });
+
+
+export const neue = localFont({
+  src: [
+    {
+      path: "../public/fonts/neue/Fontspring-DEMO-neueradial-a-regular.otf",
+      weight: "400",
+    },
+    {
+      path: "../public/fonts/neue/Fontspring-DEMO-neueradial-a-medium.otf",
+      weight: "500",
+    },
+    {
+      path: "../public/fonts/neue/Fontspring-DEMO-neueradial-a-book.otf",
+      weight: "600",
+    },
+  
+  ],
+  variable: "--neue",
+  display:'swap'
+});

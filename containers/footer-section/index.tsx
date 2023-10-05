@@ -1,4 +1,3 @@
-import HeroButton from "@/components/Buttons/HeroButton";
 import React, { FC } from "react";
 import { footerNavs } from "./constants";
 import Link from "next/link";
@@ -12,16 +11,16 @@ const FooterSection: FC<FooterSectionProps> = ({}) => {
         <div className="w-full h-max flex flex-col gap-20 items-center">
 
         <div className="bg-black w-max h-max p-0 flex items-center justify-center">
-          <h1 className="font-formula h-max -mx-7 -mt-1 -mb-12 text-[5rem] md:text-[7rem] xl:text-[10rem] 2xl:text-[15rem] font-bold leading-[15rem] text-[#EAF3F5] tracking-widest">
+          <h1 className="font-formula h-max -mx-2 md:-mx-7 -mt-6 md:-mt-1 -mb-12 text-[4rem] md:text-[7rem] xl:text-[10rem] 2xl:text-[15rem] font-bold leading-[7rem] md:leading-[7rem] xl:leading-[10rem] 2xl:leading-[15rem] text-[#EAF3F5] tracking-widest">
             NEWSLETTER
           </h1>
         </div>
-        <div className="w-full max-w-[800px] h-[74px] flex border border-black">
+        <div className="w-full max-w-[800px] h-[50px] lg:h-[74px] flex border border-black">
           <input
             placeholder="Enter your email.."
-            className="w-full h-full focus:outline-none text-3xl px-2 font-formula border-r border-black"
+            className="w-full h-full focus:outline-none text-xl lg:text-3xl px-2 font-formula border-r border-black"
             />
-          <button className="w-max h-full font-bold font-formula text-2xl tracking-wider text-white px-10 bg-[--primary-color]">
+          <button className="w-max h-full font-bold font-formula lg:text-2xl tracking-wider text-white px-5 lg:px-10 bg-[--primary-color]">
             SUBSCRIBE
           </button>
         </div>

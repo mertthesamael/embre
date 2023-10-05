@@ -11,6 +11,7 @@ const config: Config = {
     extend: {
       fontFamily:{
         'formula':'var(--formula)',
+        'neue':'var(--neue)'
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

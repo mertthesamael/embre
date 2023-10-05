@@ -1,6 +1,6 @@
 import Footer from '@/components/Layout/Footer'
 import Header from '@/components/Layout/Header'
-import { formula } from '@/lib/fonts'
+import { formula, neue } from '@/lib/fonts'
 import '@/styles/globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
@@ -20,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${formula.variable}`}>
+      <body className={`${formula.variable} ${neue.className}`}>
         <Header />
         {children}
       <Image src={'/test.png'} fill alt="" className="object-cover !fixed pointer-events-none z-20 " />
